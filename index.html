@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Is your Birthday lucky?</title>
+
+    <link
+      rel="shortcut icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎁</text></svg>"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎁</text></svg>"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <section>
+        <h1>Is your Birthday Lucky? 🧐</h1>
+        <div class="input-container">
+          <label for="date-picker">Date of Birth</label>
+          <input type="date" class="date-picker" />
+        </div>
+
+        <div class="input-container">
+          <label for="date-picker">Lucky Number</label>
+          <input
+            type="number"
+            placeholder="Enter your lucky number.."
+            class="lucky-number"
+          />
+        </div>
+
+        <div class="input-container">
+          <button class="answer-btn">Check Number</button>
+        </div>
+
+        <div class="input-container">
+          <p class="result"></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
