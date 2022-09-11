@@ -22,7 +22,7 @@ const calculateResult = () => {
   let message = '';
 
   if (luckyNum === 0 || isNaN(luckyNum) || bDate === '') {
-    message = 'Ahh, give a proper response dude 👿';
+    message = 'Ahh, give a proper input dude 👿';
     result.textContent = message;
     return;
   }
