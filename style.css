@@ -69,3 +69,21 @@ input {
 input:focus {
   border: 2px dashed var(--secondary-color);
 }
+
+.privacy {
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 0;
+}
+
+.fa-brands {
+  padding: 1rem;
+  text-decoration: none;
+}
